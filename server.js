@@ -23,7 +23,7 @@ class Server {
             rateLimitRemaining: '',
             rateLimitTotal: '',
             rateResetDate: '',
-            serverToken: ''
+            serverToken: '1'
         };
         this.startup();
         this.api();
