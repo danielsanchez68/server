@@ -7,7 +7,7 @@ const fs = require('fs');
 const OctokitApp = require('@octokit/app');
 const request = require('@octokit/request');
 
-class Server {
+export class Server {
     constructor() {
         this.basicStr = 'basic';
         this.oAuthStr = 'OAuth';
