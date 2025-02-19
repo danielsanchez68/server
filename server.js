@@ -20,6 +20,7 @@ class Server {
             authType: '', // || 'OAuth' || 'Server-to-Server'
             authTarget: this.searchStr, // || 'User'
             clientId: process.env.GH_CLIENT_ID,
+            test: true,
             oAuthToken: localStorage.getItem('oauth'),
             oAuthState: String(Math.random() * 1000000),
             rateLimitRemaining: '',
