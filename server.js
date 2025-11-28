@@ -13,6 +13,7 @@ class Server {
         this.oAuthStr = 'OAuth';
         this.serverStr = 'Server-to-Server';
         this.test = true
+        this.test2 = true
         this.searchStr = 'Search';
         this.userStr = 'User';
         this.state = {
